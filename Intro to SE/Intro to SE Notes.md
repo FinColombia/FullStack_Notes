@@ -111,10 +111,31 @@ Backward compabulity= files from older version working on new version
 ## Other App Dev Tools
 * CI/CD
 * Build Tools- source code into binary, manage tendencies, organize source code, set compile flags
-        * Examples of build tools- webpack bundler for javascript,
-        * Babel
-        * Web Assembly
-* Packages
+* Examples of build tools
+    - webpack bundler for javascript,
+    - Babel,
+    - Web Assembly
+* Packages- collect all files and bundle them
+    - include metadata, instructions, other packages needed
 * Package Managers
+    - find, install, remove packages
+    - Linux- Debian Package Management System, Red Hat Package Manager
+    - Windows- Chocolatey
+    - Android- Package Manager
+    - MacOS- Homebrew, MacPorts
+ 
+## Software Stacks
+* Combination of technologies- higher interact with users, lower with system
+* Example
+    - Python-Django
+    - Ruby on Rails
+    - ASP-NET
+    - LAMP, MEAN, MEVN, MERN
+* LAMP- Linux Apache, MySQL, PHP
+* MEAN- Mongo DB, Express.js, Angular.js, Node.js   platform agnostic, free, open source all use javascript
+
+## Interpreted and Compiled Languages
+* 
+
     
 
