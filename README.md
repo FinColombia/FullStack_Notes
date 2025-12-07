@@ -78,9 +78,37 @@
 * Pair programming- defects found earlier, pair junior with senior for example
 * 2 sets of eyes on every line of code- vacation of one person, another person understands
 
-
+## Git Repo Guidelines
 * Create a Repo for every component
 * 1 Component per Repo
 * New bracnh for every issue
 * Don't merge your own pull request
+  <img width="560" height="316" alt="Screenshot 2025-12-06 at 5 42 30 PM" src="https://github.com/user-attachments/assets/5fc09076-03af-4ab4-a56f-43ce8ae8e4a0" />
+* Working in Small Batches: Goal is to have a first finished product, get feedback
+* Features should be completable in 1 week, 1 sprint
+
+## MVP
+* Minimum thing you can do to test a value hypothesis
+* Not Phase 1 of the product
+* MVP is all about what can I learn?
+* Decide whether to **pivot** or to **perseveere**
+* MVP is an experiment to find value for the customer; this experiment might fail, but learn from it
+
+## TDD- Test Driven Development
+* If it's worth building, it's worth testing- Scott Ambler
+* Test case drives development, write test cases first
+* Testing saves you time
+<img width="729" height="616" alt="Screenshot 2025-12-06 at 5 54 40 PM" src="https://github.com/user-attachments/assets/c38b5aa8-ee63-4261-9872-75f6845e2426" />
+* Automating all test cases allows you to automate CI/CD pipelines
+* Continuous Integration(merge branches), Continuous Delivery(test) and Continuous Deployment(to user)
+
+## Behaviour Driven Development
+* Behaviour of system from the user's perspective
+* BDD checks you're building the right thing, TDD checks you're building it right
+* Gherkin syntax- Given (context), When (action), Then (outcome) And (continuation)
+* User story syntax- As a (role), I need (requirements), So that (purpose/business case)
+* BDD Example- feature(name), user story, Scenario (Gherkin syntax)
+<img width="1155" height="600" alt="Screenshot 2025-12-06 at 6 13 06 PM" src="https://github.com/user-attachments/assets/313c5288-260b-488e-9fd4-b3dcbfcb3350" />
+* Taylorism = adoption of command and control, following the industrial revolutino
 * 
+
