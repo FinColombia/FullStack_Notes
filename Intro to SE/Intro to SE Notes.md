@@ -135,7 +135,19 @@ Backward compabulity= files from older version working on new version
 * MEAN- Mongo DB, Express.js, Angular.js, Node.js   platform agnostic, free, open source all use javascript
 
 ## Interpreted and Compiled Languages
-* 
+* Interpreted (Scripting)- JavaScript, Lua, Python (case sensitive, req Python Machine to interpret), HTML
+* Compiled (Executable file)- C, C++, C#, Java (requires JVM- Java Virtual Machine)
 
+## Programming Languages
+1. Highlevel-  query level languaes, object-oriented langs
+2. Low-level- Assembly langs such as ARM, MIPS, X86
+
+## Query Languages
+* Database Query Langauges- SQL, AQL, CQL, NOSQL
+* Request data from database CRUD
+
+## Assembly Languages
+* One line at a time
+* Translated using assembñer instead of translators or interpreters 
     
 
