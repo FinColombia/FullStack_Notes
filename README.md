@@ -108,7 +108,45 @@
 * Gherkin syntax- Given (context), When (action), Then (outcome) And (continuation)
 * User story syntax- As a (role), I need (requirements), So that (purpose/business case)
 * BDD Example- feature(name), user story, Scenario (Gherkin syntax)
-<img width="1155" height="600" alt="Screenshot 2025-12-06 at 6 13 06 PM" src="https://github.com/user-attachments/assets/313c5288-260b-488e-9fd4-b3dcbfcb3350" />
-* Taylorism = adoption of command and control, following the industrial revolutino
-* 
+<img width="577.5" height="300" alt="Screenshot 2025-12-06 at 6 13 06 PM" src="https://github.com/user-attachments/assets/313c5288-260b-488e-9fd4-b3dcbfcb3350" />
 
+## Required DevOps behaviour
+* Taylorism = adoption of command and control, following the industrial revolution
+* This may work for design of products based on standard parts and making 100s of thousands of copies of the same thing
+* Software Engineering is like product development, not like project development
+* Team ownership and stable teams make it work
+* Development usually wants innovation, Operations usually wants stability
+* Make changes small and manage change
+
+## Infrastructure as Code
+* Describe infrastructure as code, executable
+* Use template and scripts that describe how to install and update users, systems
+* Why important server drift is a major point of failure
+* Infrsastructure is transcient, effemeral, cattle not pets
+
+## CI/CD
+* Continuous Integration- Continuously building, testing and merging to the master
+* Continuous Delivery- push to test, Continuous Development- Continuously push to customer
+* CI- Frequently e.g. Daily merge features
+* Every pull request should be build and tested
+
+## CI/CD Pipeline
+* Code repository
+* Build server
+* Integrated Server
+* Artifact repository
+* Automatic config of deployment environment
+<img width="638" height="259" alt="Screenshot 2025-12-07 at 6 27 24 AM" src="https://github.com/user-attachments/assets/789cfd00-37f8-4d31-8b89-0bcd5698e1db" />
+
+## 5 Principles
+* Quality build
+* Small batches
+* Automation
+* Pursue continuous improvement
+* Shared responsibility
+<img width="649.5" height="270.5" alt="Screenshot 2025-12-07 at 6 29 40 AM" src="https://github.com/user-attachments/assets/ca57bcdd-cb1d-4dc3-84f0-2f0e29cb11ab" />
+
+* Use feature flags to turn and off new deployments
+* Deployment isn't one size fits all
+* Increase the rate of change instead of avoiding
+* 
