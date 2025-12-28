@@ -1,0 +1,73 @@
+body{
+    margin: 10px;
+    background-color: black;
+}
+#home{
+    background-color: #483355;
+    padding-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: -1cm;
+    margin-top: -1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+}
+header
+{
+    font-size: 30px;
+    color: rgb(240, 234, 245);
+    float:left;
+    padding-left: 2cm;
+}
+.topdiv
+{
+    float:right;
+    padding-right: 1cm;
+}
+.topmenu
+{
+    color: rgb(219, 189, 189);
+    background-color: rgb(128, 0, 128);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 1mm;
+    font-size: 20px;
+    text-decoration: wavy;
+}
+.topmenu:hover
+{
+    color: white;
+    background-color: #382742;;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#all-conversion-sections{
+    display:grid;
+    justify-content: center;
+}
+figure{
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+image{
+    width: 200px;
+}
+figcaption{
+    color:black;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+    font-size: 25px;
+}
